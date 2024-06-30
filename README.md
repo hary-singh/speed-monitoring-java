@@ -26,7 +26,3 @@ The application runs speed tests using the `runSpeedTest` method in `SpeedTestSe
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
