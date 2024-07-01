@@ -1,5 +1,8 @@
-# Start with a base image containing Java runtime (the FROM command)
-FROM adoptopenjdk/openjdk21:alpine-jre
+# Start with a base image containing Alpine (the FROM command)
+FROM alpine:latest
+
+# Install OpenJDK 17 JRE
+RUN apk --no-cache add openjdk21-jre
 
 # Create a group and user
 RUN addgroup -S appgroup && adduser -S appuser -G appgroup
