@@ -5,6 +5,7 @@ services:
     ports:
       - "8080:8080"
   iperf3:
-    image: networkstatic/iperf3
+    image: networkstatic/iperf3:latest
     ports:
       - "5201:5201"
+    command: ["-s", "-V"]
